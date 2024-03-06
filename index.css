@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    user-select: none;
+}
+
+.main-container {
+   
+    margin: 20px auto auto auto;
+    width: 550px;
+    height: 729px;
+    text-align: center;
+    background-color: #1c1c1c;
+   
+}
+
+.display-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    padding-top: 10px;
+
+    gap: 10px;
+    width: 550px;
+    height: 285px;
+
+    margin-bottom: 30px;
+}
+
+.header,
+#num-to-convert {
+    background-color: #6943ff;
+}
+
+#num-to-convert {
+    width: 117px;
+    height: 83px;
+    font-weight: 800;
+    line-height: 24px;
+    text-align: center;
+    padding: 0;
+    font-size: 58px;
+    border: 2px solid #b295ff;
+    padding: 10px;
+    outline: none;
+    box-sizing: border-box;
+}
+input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+               -webkit-appearance: none;
+                margin: 0;
+        }
+ 
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+
+h1 {
+    font-size: 28px;
+}
+
+#convert-btn {
+    width: 117px;
+    height: 42px;
+    color: #3d3d3d;
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    font-size: 16px;
+    text-align: center;
+}
+
+#convert-btn,
+#num-to-convert {
+    border-radius: 5px;
+}
+
+#result-section {
+    gap: 30px;
+}
+
+.result-container {
+    background-color: #273549;
+    width: 500px;
+    height: 109px;
+    border-radius: 4.68077px 0px 0px 0px;
+    gap: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#result-heading {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #ccc1ff;
+}
+
+#result-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+#result-heading,
+#result-text,
+h1 {
+    margin: 0;
+}
