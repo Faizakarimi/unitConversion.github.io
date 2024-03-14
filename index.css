@@ -38,7 +38,7 @@ body {
 }
 
 #num-to-convert {
-    width: fit-content;
+    width: auto;
     height: 83px;
     font-weight: 800;
     line-height: 24px;
