@@ -38,7 +38,7 @@ body {
 }
 
 #num-to-convert {
-    width: 117px;
+    width: fit-content;
     height: 83px;
     font-weight: 800;
     line-height: 24px;
@@ -75,7 +75,9 @@ h1 {
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     font-size: 16px;
     text-align: center;
+    outline: none;
 }
+
 
 #convert-btn,
 #num-to-convert {
